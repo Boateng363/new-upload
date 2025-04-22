@@ -1,0 +1,496 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+     background: white;
+}
+section{
+    margin-bottom: 5vh;
+
+}
+.copper{
+    background-color: red;
+    padding: 10px;
+    width: 100%;
+}
+
+.first{
+    background-color: #C4C4C4;
+    padding: 5rem; /* Add padding to create internal spacing */
+    margin: 1vh 10vh 0vh; /* Push the entire section below the navbar */
+    border-radius: 5vw;
+    width: 90%;
+    height: 80vh;
+    text-align: left; /* Center text horizontally */
+    overflow: hidden;
+}
+
+
+.first p{
+       font-size: rem;   
+       margin-bottom: -80px;
+       margin-top: 100px;
+       font-weight: 800;
+}
+.first h1{
+    font-size: 8rem;
+    font-weight: 900;
+    color: white;
+    text-shadow: 2px 2px 0px #aaa, /* Light shadow */
+                 4px 4px 0px #888, /* Medium shadow */
+                 6px 6px 0px #666; /* Dark shadow */
+    margin-top: -55vh;             
+}
+.first h2{
+    font-size: 4rem;
+    margin-top: 70px;
+    color: #F94315;
+}
+.first img{
+    margin-top: -60vh;
+    margin-left: 50vh;
+}
+.first a {
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  
+}
+
+.first a:hover {
+    background-color: darkred;
+}
+
+
+.second{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 10px;
+    height: 30rem;
+    margin: 0 10vh 0;
+  
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 8px;
+    color: white;
+    text-align: center; /* Center text horizontally */
+    margin: 1vh 10vh 0vh;
+    height: 30rem;
+}
+
+.parent div {
+    display: flex;
+    flex-direction: column; /* Use flexbox for alignment */
+    justify-content: center; /* Center text horizontally */
+    align-items: center; /* Center text vertically */
+    border-radius: 20px;
+    height: 100%;  
+}
+
+.parent img{
+    width: 200px;
+    height: 200px;
+}
+
+
+.div1 {
+    grid-column: span 3 / span 3;
+    grid-row: span 3 / span 3;
+    background-color: #000000;
+    color: white;
+}
+.div1 p {   
+    text-align: center; /* Center text horizontally */
+    margin-right: 30vh; /* Remove left margin */
+    margin-top: 5vh;
+}
+.div1 h2{
+    text-align: center; /* Center text horizontally */
+    margin-right: 27vh; /* Remove left margin */
+}
+.div1 h1{
+    text-align: center; /* Center text horizontally */
+    margin-right: 0vh; /* Remove left margin */   
+    font-size: 2.5rem; 
+    font-weight: 900;
+    color: #F94315;
+    opacity: 0.7;
+}
+.div1 h3{
+    text-align: center; /* Center text horizontally */
+    margin-right: 30vh; /* Remove left margin */
+}
+
+.div1 img{
+    margin-left: 15vh;
+    margin-bottom: -30vh;
+ }
+.div2 {
+    grid-column: span 3 / span 3;
+    grid-row: span 3 / span 3;
+    grid-column-start: 4;
+    background-color: gold;
+}
+.div2 p {   
+    text-align: center; /* Center text horizontally */
+    margin-right: 30vh; /* Remove left margin */
+    margin-top: 5vh;
+}
+.div2 h2{
+    text-align: center; /* Center text horizontally */
+    margin-right: 27vh; /* Remove left margin */
+}
+.div2 h1{
+    text-align: center; /* Center text horizontally */
+    margin-right: 0vh; /* Remove left margin */   
+    font-size: 2.5rem; 
+    font-weight: 900;
+    color: #F94315;
+    opacity: 0.7;
+}
+.div2 h3{
+    text-align: center; /* Center text horizontally */
+    margin-right: 30vh; /* Remove left margin */
+}
+
+.div2 img{
+    margin-left: 15vh;
+    margin-bottom: -30vh;
+    
+ }
+
+
+.div3 {
+    grid-column: span 6 / span 6;
+    grid-row: span 3 / span 3;
+    grid-column-start: 7;
+    background-color: red;
+}
+.div3 p {   
+    text-align: center; /* Center text horizontally */
+    margin-right: 32vw; /* Remove left margin */
+    margin-top: 5vh;
+}
+.div3 h2{
+    text-align: center; /* Center text horizontally */
+    margin-right: 32vw; /* Remove left margin */
+}
+.div3 h1{
+    text-align: center; /* Center text horizontally */
+    margin-right: 40vh; /* Remove left margin */   
+    font-size: 2.5rem; 
+    font-weight: 900;
+    color: Gold;
+    opacity: 0.7;
+}
+.div3 h3{
+    text-align: center; /* Center text horizontally */
+    margin-right: 32vw; /* Remove left margin */
+}
+
+.div3 img{
+    margin-left: 15vh;
+    margin-bottom: -30vh;
+    
+ }
+
+.div4 {
+    grid-column: span 6 / span 6;
+    grid-row: span 3 / span 3;
+    grid-row-start: 4;
+    background-color: #DAD5D0;
+}
+
+ 
+ .div4 p {   
+    text-align: center; /* Center text horizontally */
+    margin-right: 32vw; /* Remove left margin */
+    margin-top: 5vh;
+}
+.div4 h2{
+    text-align: center; /* Center text horizontally */
+    margin-right: 32vw; /* Remove left margin */
+}
+.div4 h1{
+    text-align: center; /* Center text horizontally */
+    margin-right: 40vh; /* Remove left margin */   
+    font-size: 2.5rem; 
+    font-weight: 900;
+    color: White;
+    opacity: 0.7;
+}
+.div4 h3{
+    text-align: center; /* Center text horizontally */
+    margin-right: 32vw; /* Remove left margin */
+}
+
+.div4 img{
+    margin-left: 50vh;
+    margin-bottom: -30vh;
+ }
+ 
+
+.div5 {
+    grid-column: span 3 / span 3;
+    grid-row: span 3 / span 3;
+    grid-column-start: 7;
+    grid-row-start: 4;
+    background-color: #0CDC2A;
+}
+.div5 p {   
+    text-align: center; /* Center text horizontally */
+    margin-right: 30vh; /* Remove left margin */
+    margin-top: 5vh;
+}
+.div5 h2{
+    text-align: center; /* Center text horizontally */
+    margin-right: 27vh; /* Remove left margin */
+}
+.div5 h1{
+    text-align: center; /* Center text horizontally */
+    margin-right: 0vh; /* Remove left margin */   
+    font-size: 2.5rem; 
+    font-weight: 900;
+    color: blue;
+    opacity: 0.7;
+}
+.div5 h3{
+    text-align: center; /* Center text horizontally */
+    margin-right: 30vh; /* Remove left margin */
+}
+
+.div5 img{
+    margin-left: 15vh;
+    margin-bottom: -30vh;
+ }
+
+
+.div6 {
+    grid-column: span 3 / span 3;
+    grid-row: span 3 / span 3;
+    grid-column-start: 10;
+    grid-row-start: 4;
+    background-color: #0C8EF4;
+}
+.div6 p {   
+    text-align: center; /* Center text horizontally */
+    margin-right: 30vh; /* Remove left margin */
+    margin-top: 5vh;
+}
+.div6 h2{
+    text-align: center; /* Center text horizontally */
+    margin-right: 27vh; /* Remove left margin */
+}
+.div6 h1{
+    text-align: center; /* Center text horizontally */
+    margin-right: 0vh; /* Remove left margin */   
+    font-size: 2.5rem; 
+    font-weight: 900;
+    color: #F94315;
+    opacity: 0.7;
+}
+.div6 h3{
+    text-align: center; /* Center text horizontally */
+    margin-right: 30vh; /* Remove left margin */
+}
+
+.div6 img{
+    margin-left: 15vh;
+    margin-bottom: -26vh;
+ }
+
+ .grandpa{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 8px;
+    margin: 1vh 10vh 0vh;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+ }
+ .grandpa img{
+    width: 50%;
+    height: 50px;
+ }
+.Gold{
+    margin: 1vh 10vh 0vh; 
+    
+}
+
+.silver{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin: 1vh 10vh 0vh;
+    text-align: center;
+}
+.silver div{
+    background-color: white ;
+    width: 100%;
+    height: 50vh;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1), 0px 1px 3px rgba(0, 0, 0, 0.06);
+}
+.silver img{
+    width: 90%;
+    height: 200px;
+}
+.bronze{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin: 0vh 10vh 0vh;
+    text-align: center;
+}
+.bronze div{
+    width: 95%;
+    height: 50vh;
+
+}
+.bronze img{
+    width: 100%;
+    height: 50vh;
+    border-radius: 20px;
+}
+
+
+
+
+.champagne {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    gap: 10px;
+    margin: 0vh 10vh 0vh;
+}
+.champagne div {
+ background-color: #aaa;
+ width: 100%;
+ padding: 10vh;
+}
+.sub1 {
+    grid-column: span 7 / span 7;
+    grid-row: span 9 / span 9;
+    background-image: url(all\ gardget\ 1.jpg);
+}
+
+.sub2 {
+    grid-column: span 2 / span 2;
+    grid-row: span 3 / span 3;
+    grid-column-start: 8;
+    background-image: url(small\ box.jpg);
+    background-position: absolute;
+    background-size: cover;
+}
+
+.sub3 {
+    grid-column: span 3 / span 3;
+    grid-row: span 3 / span 3;
+    grid-column-start: 10;
+    background-image: url(small\ box\ 1.jpg);
+    background-position: absolute;
+    background-size: cover;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5), 0px 1px 3px rgba(0, 0, 0, 0.06);
+}
+
+.sub4 {
+    grid-column: span 2 / span 2;
+    grid-row: span 3 / span 3;
+    grid-column-start: 8;
+    grid-row-start: 4;
+    background-image: url(smallbox\ 2.jpg);
+    background-position: absolute;
+    background-size: cover;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5), 0px 1px 3px rgba(0, 0, 0, 0.06);
+
+}
+
+.sub5 {
+    grid-column: span 3 / span 3;
+    grid-row: span 3 / span 3;
+    grid-column-start: 10;
+    grid-row-start: 4;
+    background-image: url(box\ 3.jpg);
+    background-position: absolute;
+    background-size: cover;
+}
+
+.sub6 {
+    grid-column: span 2 / span 2;
+    grid-row: span 3 / span 3;
+    grid-column-start: 8;
+    grid-row-start: 7;
+    background-image: url(IMG-21.jpg);
+    background-position: absolute;
+    background-size: cover;
+}
+
+.sub7 {
+    grid-column: span 3 / span 3;
+    grid-row: span 3 / span 3;
+    grid-column-start: 10;
+    grid-row-start: 7;
+    background-image: url(box5.jpg);
+    background-position: absolute;
+    background-size: cover;
+}
+
+.zinic {
+    text-align: center;
+ 
+    transition: transform 0.3s ease, text-shadow 0.3s ease;
+    padding: 10px;
+
+}
+button{
+
+    background-color: #F94315;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.zinic:hover {
+    transform: scale(1.1);
+    text-shadow: 4px 4px 15px darkred;
+}
+button:hover {
+    background-color: darkred;
+    transform: scale(1.1);
+}
+.footer {
+    margin: 0vh 10vh 0vh;
+    padding: 5rem;
+    background-color: #000000;
+    border-radius: 20px;
+}
+.footer p {
+    text-align: center; /* Center text horizontally */
+    color: white;
+    font-size: 2rem;
+    font-weight: 900;
+    margin-top: 5vh;
+}
+ .footer h1{
+    text-align: center; /* Center text horizontally */
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
